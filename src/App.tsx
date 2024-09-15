@@ -26,7 +26,7 @@ function App() {
       const updatedTodos = [...todos, newTodo];
       setTodos(updatedTodos);
       localStorage.setItem("todos", JSON.stringify(updatedTodos));
-      inputRef.current.value = ""; // input maydonini tozalash
+      inputRef.current.value = ""; 
     }
   }
 
